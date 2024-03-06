@@ -3,6 +3,12 @@
     src: url(/fonts/Roboto-Medium.ttf);
 }
 
+*{
+    margin: 5;
+    padding: 5;
+    box-sizing: border-box;
+}
+
 ul, ol{
     font-family: roboto;
 }
@@ -16,7 +22,10 @@ p:hover{
 
 img{
     border-radius: 90%;
+    border: 2px solid gray;
     align: center;
+    display:block;
+    margin: auto;
 }
 img:hover{
 transform: scale(1.2);
@@ -25,8 +34,12 @@ transition: 2s ease all;
 
 
 button{
-    box-sizing: border-box;
+    box-shadow: -5px 0px 6px solid black;
    background-color: aquamarine;
+   border: 3px black;
+   border-radius: 4px;
+   height: 40px;
+   width: 80px;
 }
 button:hover{
     transform: scale(1.2);
@@ -37,10 +50,10 @@ dt{
     text-transform: uppercase;
     background: rgb(255,153,198);
     background: radial-gradient(circle, rgba(255,153,198,1) 0%, rgba(184,148,251,1) 100%);
-    text-shadow: 2 px black;
+    text-shadow: 2px solid black;
 }
 dd{
- color: solid blue;
+ color: blue;
 }
 
 dd:hover{
