@@ -1,0 +1,34 @@
+@font-face {
+    font-family: roboto;
+    src: url(/fonts/Roboto-Medium.ttf);
+}
+
+ul{
+    font-family: robot;
+}
+
+body{
+    background-color: burlywood;
+}
+p:hover{
+  text-shadow: yellow 10px;
+}
+
+img{
+    border-radius: 90%;
+    border-color: 2px gray;
+    align: center;
+}
+img:hover{
+transform: scale(1.2);
+}
+
+
+button{
+    box-sizing: border-box;
+   background-color: aquamarine;
+}
+button:hover{
+    transform: scale(1.2);
+    background-color: purple;
+}
