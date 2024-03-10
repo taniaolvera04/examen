@@ -59,3 +59,13 @@ dd{
 dd:hover{
     transform: scale(1.2);
 }
+
+table{
+    background: rgb(255,168,207);
+    background: radial-gradient(circle, rgba(255,168,207,0.9164040616246498) 0%, rgba(207,183,251,0.8463760504201681) 100%);
+}
+
+#dia{
+background-color: white;
+border-radius: 30%;
+}
